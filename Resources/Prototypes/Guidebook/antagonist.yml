@@ -10,25 +10,27 @@
   - MinorAntagonists
   - SpaceNinja
 
-- type: guideEntry
-  id: Traitors
-  name: guide-entry-traitors
-  text: "/ServerInfo/Guidebook/Antagonist/Traitors.xml"
+# No point in having these if they are going to be replaced/removed later on
 
-- type: guideEntry
-  id: NuclearOperatives
-  name: guide-entry-nuclear-operatives
-  text: "/ServerInfo/Guidebook/Antagonist/Nuclear Operatives.xml"
+# - type: guideEntry
+#   id: Traitors
+#   name: guide-entry-traitors
+#   text: "/ServerInfo/Guidebook/Antagonist/Traitors.xml"
+
+# - type: guideEntry
+#   id: NuclearOperatives
+#   name: guide-entry-nuclear-operatives
+#   text: "/ServerInfo/Guidebook/Antagonist/Nuclear Operatives.xml"
 
 - type: guideEntry
   id: Zombies
   name: guide-entry-zombies
   text: "/ServerInfo/Guidebook/Antagonist/Zombies.xml"
 
-- type: guideEntry
-  id: Revolutionaries
-  name: guide-entry-revolutionaries
-  text: "/ServerInfo/Guidebook/Antagonist/Revolutionaries.xml"
+# - type: guideEntry
+#   id: Revolutionaries
+#   name: guide-entry-revolutionaries
+#   text: "/ServerInfo/Guidebook/Antagonist/Revolutionaries.xml"
 
 - type: guideEntry
   id: MinorAntagonists

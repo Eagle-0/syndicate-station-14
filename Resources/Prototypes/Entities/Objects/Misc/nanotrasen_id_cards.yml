@@ -1,116 +1,85 @@
-- type: entity
-  parent: Clothing
-  id: IDCardStandard
-  name: identification card
-  description: A card necessary to access various areas aboard the station.
-  abstract: true
-  components:
-  - type: Sprite
-    sprite: Objects/Misc/id_cards.rsi
-  - type: Clothing
-    slots:
-    - idcard
-    sprite: Objects/Misc/id_cards.rsi
-  - type: Item
-    size: Small
-    heldPrefix: default
-    storedRotation: -90
-  - type: Access
-  - type: IdCard
-  - type: StationRecordKeyStorage
-  - type: Tag
-    tags:
-    - DoorBumpOpener
-    - WhitelistChameleon
-  - type: StealTarget
-    stealGroup: IDCard
+# These are the base game cards, here in case we need them for events / ghost roles
 
 - type: entity
   parent: IDCardStandard
-  id: IDSyndieCardStandard
-  suffix: syndicate
-
-#IDs with layers
-
-- type: entity
-  parent: IDSyndieCardStandard
-  id: PassengerIDCard
+  id: NanoPassengerIDCard
   name: passenger ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
+    - state: idpassenger
   - type: PresetIdCard
     job: Passenger
 
 - type: entity
   parent: PassengerIDCard
-  id: TechnicalAssistantIDCard
+  id: NanoTechnicalAssistantIDCard
   name: technical assistant ID card
   components:
   - type: PresetIdCard
     job: TechnicalAssistant
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idintern-tech
 
 - type: entity
   parent: PassengerIDCard
-  id: MedicalInternIDCard
-  name: interdyne medical intern ID card
+  id: NanoMedicalInternIDCard
+  name: medical intern ID card
   components:
   - type: PresetIdCard
     job: MedicalIntern
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idintern-med
 
 - type: entity
   parent: PassengerIDCard
-  id: ResearchAssistantIDCard
-  name: waffle research assistant ID card
+  id: NanoResearchAssistantIDCard
+  name: research assistant ID card
   components:
   - type: PresetIdCard
     job: ResearchAssistant
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idintern-sci
 
 - type: entity
   parent: PassengerIDCard
-  id: SecurityCadetIDCard
-  name: gorlex private cadet ID card
+  id: NanoSecurityCadetIDCard
+  name: security cadet ID card
   components:
   - type: PresetIdCard
     job: SecurityCadet
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idintern-cadet
 
 - type: entity
   parent: PassengerIDCard
-  id: ServiceWorkerIDCard
+  id: NanoServiceWorkerIDCard
   name: service worker ID card
   components:
   - type: PresetIdCard
     job: ServiceWorker
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idintern-service
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: CaptainIDCard
-  name: station commander ID card
+  parent: IDCardStandard
+  id: NanoCaptainIDCard
+  name: captain ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: gold
     - state: idcaptain
   - type: Item
     heldPrefix: gold
@@ -125,109 +94,109 @@
     stealGroup: CaptainIDCard
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: SecurityIDCard
-  name: gorlex trooper ID card
+  parent: IDCardStandard
+  id: NanoSecurityIDCard
+  name: security ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idsecurityofficer
   - type: PresetIdCard
     job: SecurityOfficer
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: WardenIDCard
-  name: interrogator ID card
+  parent: IDCardStandard
+  id: NanoWardenIDCard
+  name: warden ID card
   components:
     - type: Sprite
       layers:
-        - state: syndie
+        - state: default
         - state: idwarden
     - type: PresetIdCard
       job: Warden
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: EngineeringIDCard
-  name: weathermaker engineer ID card
+  parent: IDCardStandard
+  id: NanoEngineeringIDCard
+  name: engineer ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idstationengineer
   - type: PresetIdCard
     job: StationEngineer
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: MedicalIDCard
-  name: interdyne ID card
+  parent: IDCardStandard
+  id: NanoMedicalIDCard
+  name: medical ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idmedicaldoctor
   - type: PresetIdCard
     job: MedicalDoctor
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: ParamedicIDCard
-  name: interdyne paramedic ID card
+  parent: IDCardStandard
+  id: NanoParamedicIDCard
+  name: paramedic ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idparamedic
   - type: PresetIdCard
     job: Paramedic
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: ChemistIDCard
-  name: interdyne pharmacist ID card
+  parent: IDCardStandard
+  id: NanoChemistIDCard
+  name: chemist ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idchemist
   - type: PresetIdCard
     job: Chemist
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: CargoIDCard
-  name: cybersun technician ID card
+  parent: IDCardStandard
+  id: NanoCargoIDCard
+  name: cargo ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idcargotechnician
   - type: PresetIdCard
     job: CargoTechnician
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: SalvageIDCard
-  name: cyberson operator ID card
+  parent: IDCardStandard
+  id: NanoSalvageIDCard
+  name: salvage ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idshaftminer
   - type: PresetIdCard
     job: SalvageSpecialist
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: QuartermasterIDCard
-  name: cybersun manager ID card
+  parent: IDCardStandard
+  id: NanoQuartermasterIDCard
+  name: quartermaster ID card
   components:
     - type: Sprite
       layers:
-        - state: syndie
+        - state: silver
         - state: idquartermaster
     - type: Item
       heldPrefix: silver
@@ -235,146 +204,146 @@
       job: Quartermaster
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: ResearchIDCard
-  name: waffle co. research ID card
+  parent: IDCardStandard
+  id: NanoResearchIDCard
+  name: research ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idscientist
   - type: PresetIdCard
     job: Scientist
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: ClownIDCard
+  parent: IDCardStandard
+  id: NanoClownIDCard
   name: clown ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idclown
   - type: PresetIdCard
     job: Clown
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: MimeIDCard
+  parent: IDCardStandard
+  id: NanoMimeIDCard
   name: mime ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idmime
   - type: PresetIdCard
     job: Mime
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: ChaplainIDCard
+  parent: IDCardStandard
+  id: NanoChaplainIDCard
   name: chaplain ID card
   components:
     - type: Sprite
       layers:
-        - state: syndie
+        - state: default
         - state: idchaplain
     - type: PresetIdCard
       job: Chaplain
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: JanitorIDCard
+  parent: IDCardStandard
+  id: NanoJanitorIDCard
   name: janitor ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idjanitor
   - type: PresetIdCard
     job: Janitor
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: BartenderIDCard
+  parent: IDCardStandard
+  id: NanoBartenderIDCard
   name: bartender ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idbartender
   - type: PresetIdCard
     job: Bartender
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: PunPunIDCard
+  parent: IDCardStandard
+  id: NanoPunPunIDCard
   name: pun pun ID card
   components:
     - type: Sprite
       layers:
-        - state: syndie
+        - state: default
         - state: idbartender
     - type: PresetIdCard
       job: Bartender
       name: Pun Pun
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: ChefIDCard
+  parent: IDCardStandard
+  id: NanoChefIDCard
   name: chef ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idcook
   - type: PresetIdCard
     job: Chef
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: BotanistIDCard
+  parent: IDCardStandard
+  id: NanoBotanistIDCard
   name: botanist ID card
   components:
     - type: Sprite
       layers:
-        - state: syndie
+        - state: default
         - state: idbotanist
     - type: PresetIdCard
       job: Botanist
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: LibrarianIDCard
+  parent: IDCardStandard
+  id: NanoLibrarianIDCard
   name: librarian ID card
   components:
     - type: Sprite
       layers:
-        - state: syndie
+        - state: default
         - state: idcurator
     - type: PresetIdCard
       job: Librarian
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: LawyerIDCard
+  parent: IDCardStandard
+  id: NanoLawyerIDCard
   name: lawyer ID card
   components:
     - type: Sprite
       layers:
-        - state: syndie
+        - state: default
         - state: idlawyer
     - type: PresetIdCard
       job: Lawyer
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: HoPIDCard
+  parent: IDCardStandard
+  id: NanoHoPIDCard
   name: head of personnel ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: silver
     - state: idheadofpersonnel
   - type: Item
     heldPrefix: silver
@@ -382,13 +351,13 @@
     job: HeadOfPersonnel
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: CEIDCard
-  name: weathermaker supervisor ID card
+  parent: IDCardStandard
+  id: NanoCEIDCard
+  name: chief engineer ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: silver
     - state: idchiefengineer
   - type: Item
     heldPrefix: silver
@@ -396,13 +365,13 @@
     job: ChiefEngineer
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: CMOIDCard
-  name: interdyne director ID card
+  parent: IDCardStandard
+  id: NanoCMOIDCard
+  name: chief medical officer ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: silver
     - state: idchiefmedicalofficer
   - type: Item
     heldPrefix: silver
@@ -410,13 +379,13 @@
     job: ChiefMedicalOfficer
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: RDIDCard
-  name: waffle director ID card
+  parent: IDCardStandard
+  id: NanoRDIDCard
+  name: research director ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: silver
     - state: idresearchdirector
   - type: Item
     heldPrefix: silver
@@ -424,13 +393,13 @@
     job: ResearchDirector
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: HoSIDCard
-  name: gorlex commander ID card
+  parent: IDCardStandard
+  id: NanoHoSIDCard
+  name: head of security ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: silver
     - state: idheadofsecurity
   - type: Item
     heldPrefix: silver
@@ -438,23 +407,23 @@
     job: HeadOfSecurity
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: BrigmedicIDCard
+  parent: IDCardStandard
+  id: NanoBrigmedicIDCard
   name: brigmedic ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idbrigmedic
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: CentcomIDCard
-  name: board member ID card
+  parent: IDCardStandard
+  id: NanoCentcomIDCard
+  name: command officer ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: centcom
     - state: idcentcom
   - type: Item
     heldPrefix: blue
@@ -469,7 +438,7 @@
 
 - type: entity
   parent: CentcomIDCard
-  id: ERTLeaderIDCard
+  id: NanoERTLeaderIDCard
   name: ERT leader ID card
   components:
   - type: Sprite
@@ -483,7 +452,7 @@
 
 - type: entity
   parent: ERTLeaderIDCard
-  id: ERTChaplainIDCard
+  id: NanoERTChaplainIDCard
   name: ERT chaplain ID card
   components:
   - type: Sprite
@@ -497,7 +466,7 @@
 
 - type: entity
   parent: ERTChaplainIDCard
-  id: ERTEngineerIDCard
+  id: NanoERTEngineerIDCard
   name: ERT engineer ID card
   components:
   - type: Sprite
@@ -509,7 +478,7 @@
 
 - type: entity
   parent: ERTChaplainIDCard
-  id: ERTJanitorIDCard
+  id: NanoERTJanitorIDCard
   name: ERT janitor ID card
   components:
   - type: Sprite
@@ -521,7 +490,7 @@
 
 - type: entity
   parent: ERTChaplainIDCard
-  id: ERTMedicIDCard
+  id: NanoERTMedicIDCard
   name: ERT medic ID card
   components:
   - type: Sprite
@@ -533,8 +502,9 @@
 
 - type: entity
   parent: ERTChaplainIDCard
-  id: ERTSecurityIDCard
+  id: NanoERTSecurityIDCard
   name: ERT security ID card
+  suffix: Nanotrasen
   components:
   - type: Sprite
     layers:
@@ -544,144 +514,33 @@
     jobTitle: ERT Field Officer
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: CentcomIDCardSyndie
-  name: command officer ID card
-  suffix: Fake
-  components:
-  - type: Sprite
-    layers:
-    - state: syndie
-    - state: idcentcom
-  - type: Item
-    heldPrefix: blue
-  - type: IdCard
-    jobTitle: Central Commander
-  - type: Access
-    tags:
-    - Maintenance
-
-- type: entity
-  parent: IDSyndieCardStandard
-  id: MusicianIDCard
+  parent: IDCardStandard
+  id: NanoMusicianIDCard
   name: musician ID card
   components:
     - type: Sprite
       layers:
-        - state: syndie
+        - state: default
         - state: idmusician
     - type: PresetIdCard
       job: Musician
 
 - type: entity
   parent: CentcomIDCard
-  id: CentcomIDCardDeathsquad
+  id: NanoCentcomIDCardDeathsquad
   name: death squad ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: centcom
   - type: Item
     heldPrefix: blue
   - type: IdCard
     jobTitle: Centcom Agent
 
 - type: entity
-  name: passenger ID card
-  parent: IDSyndieCardStandard
-  id: AgentIDCard
-  suffix: Agent
-  components:
-  - type: IdCard
-    jobTitle: Passenger
-  - type: Access
-    tags:
-    - Maintenance
-    - SyndicateAgent
-  - type: Sprite
-    layers:
-    - state: syndie
-    - state: idpassenger
-  - type: AgentIDCard
-    icons:
-    # TODO figure out a better way of doing this.
-    # Probably by adding a bool or icon-category data-field to the icon prototype?
-    - JobIconDetective
-    - JobIconQuarterMaster
-    - JobIconBotanist
-    - JobIconBoxer
-    - JobIconAtmosphericTechnician
-    - JobIconNanotrasen
-    - JobIconPrisoner
-    - JobIconJanitor
-    - JobIconChemist
-    - JobIconStationEngineer
-    - JobIconSecurityOfficer
-    - JobIconChiefMedicalOfficer
-    - JobIconRoboticist
-    - JobIconChaplain
-    - JobIconLawyer
-    - JobIconUnknown
-    - JobIconLibrarian
-    - JobIconCargoTechnician
-    - JobIconScientist
-    - JobIconResearchAssistant
-    - JobIconGeneticist
-    - JobIconClown
-    - JobIconCaptain
-    - JobIconHeadOfPersonnel
-    - JobIconVirologist
-    - JobIconShaftMiner
-    - JobIconPassenger
-    - JobIconChiefEngineer
-    - JobIconBartender
-    - JobIconHeadOfSecurity
-    - JobIconMedicalDoctor
-    - JobIconParamedic
-    - JobIconChef
-    - JobIconWarden
-    - JobIconResearchDirector
-    - JobIconMime
-    - JobIconMusician
-    - JobIconReporter
-    - JobIconPsychologist
-    - JobIconMedicalIntern
-    - JobIconTechnicalAssistant
-    - JobIconServiceWorker
-    - JobIconSecurityCadet
-    - JobIconZookeeper
-    - JobIconVisitor
-  - type: ActivatableUI
-    key: enum.AgentIDCardUiKey.Key
-    inHandsOnly: true
-  - type: Tag
-    tags:
-    - DoorBumpOpener
-  - type: ChameleonClothing
-    slot: [idcard]
-    default: PassengerIDCard
-  - type: UserInterface
-    interfaces:
-      - key: enum.AgentIDCardUiKey.Key
-        type: AgentIDCardBoundUserInterface
-      - key: enum.ChameleonUiKey.Key
-        type: ChameleonBoundUserInterface
-
-- type: entity
-  name: passenger ID card
-  parent: AgentIDCard
-  id: NukieAgentIDCard
-  suffix: Nukie
-  components:
-  - type: Access
-    tags:
-    - Maintenance
-    - SyndicateAgent
-    - NuclearOperative
-
-- type: entity
-  parent: IDSyndieCardStandard
-  id: AtmosIDCard
+  parent: IDCardStandard
+  id: NanoAtmosIDCard
   name: atmospheric technician ID card
   components:
   - type: Sprite
@@ -692,155 +551,129 @@
     job: AtmosphericTechnician
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: SyndicateIDCard
-  name: syndicate ID card
-  components:
-  - type: Sprite
-    layers:
-    - state: syndie
-  - type: Access
-    tags:
-    - NuclearOperative
-    - SyndicateAgent
-
-- type: entity
-  parent: IDSyndieCardStandard
-  id: PirateIDCard
-  name: pirate ID card
-  components:
-  - type: Sprite
-    layers:
-    - state: pirate
-  - type: Access
-    tags:
-    - NuclearOperative
-    - SyndicateAgent
-
-- type: entity
-  parent: IDSyndieCardStandard
-  id: PsychologistIDCard
+  parent: IDCardStandard
+  id: NanoPsychologistIDCard
   name: psychologist ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idpsychologist
   - type: PresetIdCard
     job: Psychologist
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: ReporterIDCard
+  parent: IDCardStandard
+  id: NanoReporterIDCard
   name: reporter ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idreporter
   - type: PresetIdCard
     job: Reporter
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: BoxerIDCard
+  parent: IDCardStandard
+  id: NanoBoxerIDCard
   name: boxer ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idboxer
   - type: PresetIdCard
     job: Boxer
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: ZookeeperIDCard
+  parent: IDCardStandard
+  id: NanoZookeeperIDCard
   name: zookeeper ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idzookeeper
   - type: PresetIdCard
     job: Zookeeper
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: DetectiveIDCard
+  parent: IDCardStandard
+  id: NanoDetectiveIDCard
   name: detective ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: iddetective
   - type: PresetIdCard
     job: Detective
 
 - type: entity
   parent: CentcomIDCard
-  id: CBURNIDcard
+  id: NanoCBURNIDcard
   name: CBURN ID card
   suffix: CBURN
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: centcom
   - type: Item
     heldPrefix: blue
   - type: IdCard
     jobTitle: Centcom Quarantine Officer
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: CluwneIDCard
+  parent: IDCardStandard
+  id: NanoCluwneIDCard
   name: cluwne ID card
   suffix: Unremoveable
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idcluwne
   - type: IdCard
     jobTitle: Cluwne
   - type: Unremoveable
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: SeniorEngineerIDCard
+  parent: IDCardStandard
+  id: NanoSeniorEngineerIDCard
   name: senior engineer ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idseniorengineer
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: SeniorResearcherIDCard
+  parent: IDCardStandard
+  id: NanoSeniorResearcherIDCard
   name: senior researcher ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idseniorresearcher
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: SeniorPhysicianIDCard
+  parent: IDCardStandard
+  id: NanoSeniorPhysicianIDCard
   name: senior physician ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idseniorphysician
 
 - type: entity
-  parent: IDSyndieCardStandard
-  id: SeniorOfficerIDCard
+  parent: IDCardStandard
+  id: NanoSeniorOfficerIDCard
   name: senior officer ID card
   components:
   - type: Sprite
     layers:
-    - state: syndie
+    - state: default
     - state: idseniorofficer

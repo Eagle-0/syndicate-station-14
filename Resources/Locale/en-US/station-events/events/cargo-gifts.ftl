@@ -1,12 +1,12 @@
-cargo-gifts-event-announcement = It is your lucky day. { $sender } was able to afford sending { $description } to the station { $dest }. Look for it in your next cargo shipment.
+cargo-gifts-event-announcement = It is your lucky day. { $sender } was able to afford sending { $description } to the station's { $dest }. Look for it in your next cargo shipment.
 cargo-gift-default-description = Necessary supplies
 cargo-gift-default-sender = High Command
 cargo-gift-default-dest = Cybersun Dept.
 
 cargo-gift-dest-bar = bar
-cargo-gift-dest-eng = Weathermaker Inc Dept
+cargo-gift-dest-eng = Weathermaker Inc. Dept
 cargo-gift-dest-supp = Cybersun Industries Dept
-cargo-gift-dest-janitor = Donk Co Dept
+cargo-gift-dest-janitor = Donk Co. Dept
 cargo-gift-dest-med = Interdyne Pharmaceuticals Dept
 cargo-gift-dest-sec = Gorlex Marauders Dept
 

@@ -153,7 +153,7 @@
   name: mk 58
   parent: BaseWeaponPistol
   id: WeaponPistolMk58
-  description: A cheap, ubiquitous sidearm, produced by a NanoTrasen subsidiary. Uses .35 auto ammo.
+  description: A cheap, ubiquitous sidearm, used by the Gorlex Marauders. Uses .35 auto ammo.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/mk58.rsi

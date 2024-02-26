@@ -4,8 +4,6 @@
   name: welding mask
   abstract: true
   components:
-  - type: Item
-    storedRotation: 0
   - type: IngestionBlocker
   - type: FlashImmunity
   - type: IdentityBlocker
@@ -18,6 +16,7 @@
     price: 50
   - type: Tag
     tags:
+    - DroneUsable
     - WhitelistChameleon
 
 - type: entity
@@ -32,6 +31,7 @@
     sprite: Clothing/Head/Welding/welding.rsi
   - type: Tag
     tags:
+    - DroneUsable
     - HamsterWearable
     - WhitelistChameleon
 

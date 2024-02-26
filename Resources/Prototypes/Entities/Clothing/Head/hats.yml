@@ -120,8 +120,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretHoS
-  name: head of security's beret
-  description: A black beret with a commander's rank emblem. For officers that are more inclined towards style than safety.
+  name: Gorlex Commander's beret
+  description: A black beret with a commander's rank emblem. For officers that are more inclined to show power than safety.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_hos.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretWarden
-  name: warden's beret
-  description: A corporate blue beret with a warden's rank emblem. For officers that are more inclined towards style than safety.
+  name: Interrogator's beret
+  description: A blue beret with an NCO's rank emblem. For officers that want to show the blood on their berets.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_warden.rsi
@@ -169,8 +169,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatBeretMerc
-  name: mercenary beret
-  description: Olive beret, the badge depicts a jackal on a rock.
+  name: Terragov beret
+  description: Olive beret, the badge depicts the Terragov logo.
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/beret_merc.rsi
@@ -748,8 +748,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSyndie
-  name: syndicate hat
-  description: A souvenir hat from "Syndieland", their production has already been closed.
+  name: Gorlex Private Cap
+  description: For the Fresh meat of the Gorlex Marauders
   components:
   - type: Sprite
     sprite: Clothing/Head/Hats/syndiecap.rsi
@@ -877,6 +877,7 @@
     sprite: Clothing/Head/Hats/party_red.rsi
   - type: Tag
     tags:
+      - DroneUsable
       - WhitelistChameleon
       - HamsterWearable
 
@@ -956,7 +957,7 @@
     - type: AddAccentClothing
       accent: ReplacementAccent
       replacement: cowboy
-
+      
 - type: entity
   parent: ClothingHeadHatCowboyBrown
   id: ClothingHeadHatCowboyBlack
@@ -966,7 +967,7 @@
       sprite: Clothing/Head/Hats/cowboyhatblack.rsi
     - type: Clothing
       sprite: Clothing/Head/Hats/cowboyhatblack.rsi
-
+      
 - type: entity
   parent: ClothingHeadHatCowboyBrown
   id: ClothingHeadHatCowboyGrey
@@ -976,7 +977,7 @@
       sprite: Clothing/Head/Hats/cowboyhatgrey.rsi
     - type: Clothing
       sprite: Clothing/Head/Hats/cowboyhatgrey.rsi
-
+      
 - type: entity
   parent: ClothingHeadHatCowboyBrown
   id: ClothingHeadHatCowboyRed
@@ -986,7 +987,7 @@
       sprite: Clothing/Head/Hats/cowboyhatred.rsi
     - type: Clothing
       sprite: Clothing/Head/Hats/cowboyhatred.rsi
-
+      
 - type: entity
   parent: ClothingHeadHatCowboyBrown
   id: ClothingHeadHatCowboyWhite
@@ -996,7 +997,7 @@
       sprite: Clothing/Head/Hats/cowboyhatwhite.rsi
     - type: Clothing
       sprite: Clothing/Head/Hats/cowboyhatwhite.rsi
-
+      
 - type: entity
   parent: ClothingHeadHatCowboyBrown
   id: ClothingHeadHatCowboyBountyHunter

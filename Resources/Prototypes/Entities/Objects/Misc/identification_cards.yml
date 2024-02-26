@@ -732,7 +732,7 @@
 - type: entity
   parent: IDSyndieCardStandard
   id: ReporterIDCard
-  name: reporter ID card
+  name: propogandist ID card
   components:
   - type: Sprite
     layers:

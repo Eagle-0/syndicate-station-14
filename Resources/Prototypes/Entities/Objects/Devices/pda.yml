@@ -42,7 +42,7 @@
 - type: entity
   parent: BaseMedicalPDA
   id: MedicalInternPDA
-  name: medical intern PDA
+  name: interdyne medical intern PDA
   description: Why isn't it white? Has a built-in health analyzer.
   components:
   - type: Pda
@@ -57,8 +57,8 @@
 - type: entity
   parent: BaseSyndicatePDA
   id: SecurityCadetPDA
-  name: security cadet PDA
-  description: Why isn't it red?
+  name: gorlex private PDA
+  description: For those who have yet to go through hell
   components:
   - type: Pda
     id: SecurityCadetIDCard
@@ -69,7 +69,7 @@
 - type: entity
   parent: BaseSyndicatePDA
   id: ResearchAssistantPDA
-  name: research assistant PDA
+  name: waffle research assistant PDA
   description: Why isn't it purple?
   components:
   - type: Pda
@@ -193,7 +193,7 @@
     state: pda-syndi
 
 - type: entity
-  name: quartermaster PDA
+  name: cybersun manager PDA
   parent: BaseSyndicatePDA
   id: QuartermasterPDA
   description: PDA for the guy that orders the guns.
@@ -219,7 +219,7 @@
 - type: entity
   parent: BaseSyndicatePDA
   id: SalvagePDA
-  name: salvage PDA
+  name: operator PDA
   description: Smells like ash.
   components:
   - type: Pda
@@ -291,7 +291,7 @@
 - type: entity
   parent: BaseSyndicatePDA
   id: CaptainPDA
-  name: commander PDA
+  name: station commander PDA
   description: Surprisingly no different from your PDA.
   components:
   - type: Pda
@@ -363,7 +363,7 @@
 - type: entity
   parent: BaseMedicalPDA
   id: MedicalPDA
-  name: medical PDA
+  name: interdyne medical PDA
   description: Shiny and sterile. Has a built-in health analyzer.
   components:
   - type: Pda
@@ -414,7 +414,7 @@
 - type: entity
   parent: BaseSyndicatePDA
   id: SciencePDA
-  name: science PDA
+  name: waffle science PDA
   description: It's covered with an unknown gooey substance.
   components:
   - type: Pda
@@ -524,7 +524,7 @@
 - type: entity
   parent: BaseSyndicatePDA
   id: ReporterPDA
-  name: reporter PDA
+  name: propogandist PDA
   description: Smells like freshly printed press.
   components:
   - type: Pda

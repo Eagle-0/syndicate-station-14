@@ -211,8 +211,9 @@
     contents:
         - id: NitrogenTankFilled
         - id: OxygenTankFilled
+        - id: ClothingShoesBootsMagSyndie
         - id: JetpackSecurityFilled
-        - id: ClothingOuterHardsuitSecurityRed
+        - id: ClothingOuterHardsuitSyndieCommander
         - id: ClothingMaskGasSwat
   - type: AccessReader
     access: [["HeadOfSecurity"]]
@@ -227,7 +228,8 @@
     contents:
         - id: NitrogenTankFilled
         - id: OxygenTankFilled
-        - id: ClothingOuterHardsuitWarden
+        - id: ClothingShoesBootsMagSyndie
+        - id: ClothingOuterHardsuitSyndie
         - id: ClothingMaskBreath
   - type: AccessReader
     access: [["Armory"]]
@@ -242,8 +244,9 @@
     contents:
         - id: NitrogenTankFilled
         - id: OxygenTankFilled
-        - id: ClothingOuterHardsuitCap
-        - id: ClothingMaskGasCaptain
+        - id: ClothingShoesBootsMagSyndie
+        - id: ClothingOuterHardsuitSyndieElite
+        - id: ClothingMaskGasSyndicate
   - type: AccessReader
     access: [["Captain"]]
 

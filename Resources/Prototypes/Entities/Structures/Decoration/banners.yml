@@ -81,7 +81,7 @@
   id: BannerSyndicate
   parent: BannerBase
   name: syndicate banner
-  description: A banner from which, according to the syndicate, you should feel hatred for NT.
+  description: A banner from which, you should feel hatred for NT.
   components:
   - type: Sprite
     sprite: Structures/Decoration/banner.rsi

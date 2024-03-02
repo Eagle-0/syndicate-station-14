@@ -4530,6 +4530,13 @@ entities:
       parent: 12533
     - type: InstantAction
       container: 12533
+- proto: AgentIDCard
+  entities:
+  - uid: 12672
+    components:
+    - type: Transform
+      pos: -41.160164,-20.596766
+      parent: 1
 - proto: AirAlarm
   entities:
   - uid: 8049
@@ -6249,7 +6256,7 @@ entities:
       pos: -3.5,2.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -4128.692
+      secondsUntilStateChange: -4943.2705
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -6327,7 +6334,7 @@ entities:
       pos: -7.5,1.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -5920.802
+      secondsUntilStateChange: -6735.3804
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -6867,7 +6874,7 @@ entities:
       pos: 22.5,4.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -7514.8823
+      secondsUntilStateChange: -8329.461
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -27821,6 +27828,13 @@ entities:
     - type: Transform
       pos: -16.593803,-4.1209826
       parent: 1
+- proto: ClothingHandsChameleonThief
+  entities:
+  - uid: 12679
+    components:
+    - type: Transform
+      pos: -41.269806,-20.720146
+      parent: 1
 - proto: ClothingHandsGlovesBoxingBlue
   entities:
   - uid: 8820
@@ -27841,11 +27855,6 @@ entities:
     components:
     - type: Transform
       pos: -43.532326,-20.546803
-      parent: 1
-  - uid: 8823
-    components:
-    - type: Transform
-      pos: -40.469826,-20.531178
       parent: 1
 - proto: ClothingHandsGlovesColorBlack
   entities:
@@ -27928,6 +27937,13 @@ entities:
     components:
     - type: Transform
       pos: -13.503023,28.53958
+      parent: 1
+- proto: ClothingHeadHatChameleon
+  entities:
+  - uid: 12682
+    components:
+    - type: Transform
+      pos: -41.199997,-20.656687
       parent: 1
 - proto: ClothingHeadHatFedoraBrown
   entities:
@@ -28022,6 +28038,13 @@ entities:
     components:
     - type: Transform
       pos: 17.53083,23.601284
+      parent: 1
+- proto: ClothingMaskGasVoiceChameleon
+  entities:
+  - uid: 12678
+    components:
+    - type: Transform
+      pos: -41.153122,-20.641062
       parent: 1
 - proto: ClothingMaskSterile
   entities:
@@ -28268,6 +28291,20 @@ entities:
     components:
     - type: Transform
       pos: 31.59061,-16.652718
+      parent: 1
+- proto: ClothingShoesChameleonNoSlips
+  entities:
+  - uid: 12680
+    components:
+    - type: Transform
+      pos: -41.186058,-20.641062
+      parent: 1
+- proto: ClothingUniformJumpsuitChameleon
+  entities:
+  - uid: 12681
+    components:
+    - type: Transform
+      pos: -41.137497,-20.734812
       parent: 1
 - proto: ClothingUniformJumpsuitPirate
   entities:
@@ -29193,6 +29230,11 @@ entities:
     components:
     - type: Transform
       pos: 4.376402,27.54329
+      parent: 1
+  - uid: 12677
+    components:
+    - type: Transform
+      pos: -41.16043,-20.673271
       parent: 1
 - proto: d20Dice
   entities:
@@ -33097,6 +33139,11 @@ entities:
     - type: Transform
       pos: 15.530149,27.455387
       parent: 1
+  - uid: 12670
+    components:
+    - type: Transform
+      pos: -41.131584,-20.620823
+      parent: 1
 - proto: EmergencyLight
   entities:
   - uid: 5524
@@ -33700,6 +33747,13 @@ entities:
     components:
     - type: Transform
       pos: 17.712036,27.60064
+      parent: 1
+- proto: EnergySword
+  entities:
+  - uid: 12669
+    components:
+    - type: Transform
+      pos: -41.15195,-20.581419
       parent: 1
 - proto: EnergySwordDouble
   entities:
@@ -58207,7 +58261,7 @@ entities:
   - uid: 12057
     components:
     - type: Transform
-      pos: 18.628824,27.764187
+      pos: 18.619614,27.720688
       parent: 1
 - proto: MedkitAdvancedFilled
   entities:
@@ -58241,7 +58295,22 @@ entities:
   - uid: 8819
     components:
     - type: Transform
-      pos: -40.48545,-16.453053
+      pos: -41.4957,-20.800169
+      parent: 1
+  - uid: 8823
+    components:
+    - type: Transform
+      pos: -41.073826,-20.800169
+      parent: 1
+  - uid: 12674
+    components:
+    - type: Transform
+      pos: -40.96445,-20.706419
+      parent: 1
+  - uid: 12675
+    components:
+    - type: Transform
+      pos: -41.2457,-20.675169
       parent: 1
 - proto: MedkitBurnFilled
   entities:
@@ -68868,6 +68937,11 @@ entities:
     - type: Transform
       pos: 18.55539,25.628893
       parent: 1
+  - uid: 12676
+    components:
+    - type: Transform
+      pos: -41.208385,-20.675581
+      parent: 1
 - proto: Stunbaton
   entities:
   - uid: 5327
@@ -71958,6 +72032,11 @@ entities:
     components:
     - type: Transform
       pos: 18.539764,25.425768
+      parent: 1
+  - uid: 12673
+    components:
+    - type: Transform
+      pos: -41.110794,-20.606564
       parent: 1
 - proto: UprightPianoInstrument
   entities:
@@ -81450,6 +81529,13 @@ entities:
     components:
     - type: Transform
       pos: 33.606236,-18.496468
+      parent: 1
+- proto: WeldingFuelTank
+  entities:
+  - uid: 12671
+    components:
+    - type: Transform
+      pos: -42.5,-20.5
       parent: 1
 - proto: WeldingFuelTankFull
   entities:

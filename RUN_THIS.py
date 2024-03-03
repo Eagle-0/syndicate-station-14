@@ -16,3 +16,5 @@ if IS_WINDOWS:
     subprocess.run(["py", "-3", "git_helper.py"], cwd="BuildChecker")
 else:
     subprocess.run(["python3", "git_helper.py"], cwd="BuildChecker")
+
+input("Press any key to continue...")

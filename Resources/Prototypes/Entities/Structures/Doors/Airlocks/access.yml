@@ -1,7 +1,7 @@
 # Airlocks
 - type: entity
   parent: Airlock
-  id: AirlockServiceLocked
+  id: NanoAirlockServiceLocked
   suffix: Service, Locked
   components:
   - type: AccessReader
@@ -9,7 +9,7 @@
 
 - type: entity
   parent: Airlock
-  id: AirlockLawyerLocked
+  id: NanoAirlockLawyerLocked
   suffix: Lawyer, Locked
   components:
   - type: AccessReader
@@ -17,7 +17,7 @@
 
 - type: entity
   parent: Airlock
-  id: AirlockTheatreLocked
+  id: NanoAirlockTheatreLocked
   suffix: Theatre, Locked
   components:
   - type: AccessReader
@@ -25,7 +25,7 @@
 
 - type: entity
   parent: Airlock
-  id: AirlockChapelLocked
+  id: NanoAirlockChapelLocked
   suffix: Chapel, Locked
   components:
   - type: AccessReader
@@ -33,7 +33,7 @@
 
 - type: entity
   parent: Airlock
-  id: AirlockJanitorLocked
+  id: NanoAirlockJanitorLocked
   suffix: Janitor, Locked
   components:
   - type: AccessReader
@@ -41,7 +41,7 @@
 
 - type: entity
   parent: Airlock
-  id: AirlockKitchenLocked
+  id: NanoAirlockKitchenLocked
   suffix: Kitchen, Locked
   components:
   - type: AccessReader
@@ -49,7 +49,7 @@
 
 - type: entity
   parent: Airlock
-  id: AirlockBarLocked
+  id: NanoAirlockBarLocked
   suffix: Bar, Locked
   components:
   - type: AccessReader
@@ -57,7 +57,7 @@
 
 - type: entity
   parent: Airlock
-  id: AirlockHydroponicsLocked
+  id: NanoAirlockHydroponicsLocked
   suffix: Hydroponics, Locked
   components:
   - type: AccessReader
@@ -65,7 +65,7 @@
 
 - type: entity
   parent: Airlock
-  id: AirlockServiceCaptainLocked
+  id: NanoAirlockServiceCaptainLocked
   suffix: Captain, Locked
   components:
   - type: AccessReader
@@ -73,7 +73,7 @@
 
 - type: entity
   parent: AirlockExternal
-  id: AirlockExternalLocked
+  id: NanoAirlockExternalLocked
   suffix: External, Locked
   components:
   - type: AccessReader
@@ -81,7 +81,7 @@
 
 - type: entity
   parent: AirlockExternal
-  id: AirlockExternalCargoLocked
+  id: NanoAirlockExternalCargoLocked
   suffix: External, Cargo, Locked
   components:
   - type: AccessReader
@@ -89,7 +89,7 @@
 
 - type: entity
   parent: AirlockExternal
-  id: AirlockExternalEngineeringLocked
+  id: NanoAirlockExternalEngineeringLocked
   suffix: External, Engineering, Locked
   components:
   - type: AccessReader
@@ -97,7 +97,7 @@
 
 - type: entity
   parent: AirlockExternal
-  id: AirlockExternalAtmosphericsLocked
+  id: NanoAirlockExternalAtmosphericsLocked
   suffix: External, Atmospherics, Locked
   components:
   - type: AccessReader
@@ -105,7 +105,7 @@
 
 - type: entity
   parent: AirlockExternal
-  id: AirlockExternalSyndicateLocked
+  id: NanoAirlockExternalSyndicateLocked
   suffix: External, Syndicate, Locked
   components:
   - type: AccessReader
@@ -113,7 +113,7 @@
 
 - type: entity
   parent: AirlockExternal
-  id: AirlockExternalNukeopLocked
+  id: NanoAirlockExternalNukeopLocked
   suffix: External, Nukeop, Locked
   components:
   - type: AccessReader
@@ -121,7 +121,7 @@
 
 - type: entity
   parent: AirlockFreezer
-  id: AirlockFreezerLocked
+  id: NanoAirlockFreezerLocked
   suffix: Kitchen, Locked
   components:
   - type: AccessReader
@@ -129,7 +129,7 @@
 
 - type: entity
   parent: AirlockFreezer
-  id: AirlockFreezerKitchenHydroLocked
+  id: NanoAirlockFreezerKitchenHydroLocked
   suffix: Kitchen/Hydroponics, Locked
   components:
   - type: AccessReader
@@ -137,7 +137,7 @@
 
 - type: entity
   parent: AirlockFreezer
-  id: AirlockFreezerHydroponicsLocked
+  id: NanoAirlockFreezerHydroponicsLocked
   suffix: Hydroponics, Locked
   components:
   - type: AccessReader
@@ -145,7 +145,7 @@
 
 - type: entity
   parent: AirlockEngineering
-  id: AirlockEngineeringLocked
+  id: NanoAirlockEngineeringLocked
   suffix: Engineering, Locked
   components:
   - type: AccessReader
@@ -153,7 +153,7 @@
 
 - type: entity
   parent: AirlockAtmospherics
-  id: AirlockAtmosphericsLocked
+  id: NanoAirlockAtmosphericsLocked
   suffix: Atmospherics, Locked
   components:
   - type: AccessReader
@@ -161,7 +161,7 @@
 
 - type: entity
   parent: AirlockCargo
-  id: AirlockCargoLocked
+  id: NanoAirlockCargoLocked
   suffix: Cargo, Locked
   components:
   - type: AccessReader
@@ -169,7 +169,7 @@
 
 - type: entity
   parent: AirlockCargo
-  id: AirlockSalvageLocked
+  id: NanoAirlockSalvageLocked
   suffix: Salvage, Locked
   components:
   - type: AccessReader
@@ -177,7 +177,7 @@
 
 - type: entity
   parent: AirlockMining
-  id: AirlockMiningLocked
+  id: NanoAirlockMiningLocked
   suffix: Mining(Salvage), Locked
   components:
   - type: AccessReader
@@ -185,7 +185,7 @@
 
 - type: entity
   parent: AirlockMedical
-  id: AirlockMedicalLocked
+  id: NanoAirlockMedicalLocked
   suffix: Medical, Locked
   components:
   - type: AccessReader
@@ -193,7 +193,7 @@
 
 - type: entity
   parent: AirlockVirology
-  id: AirlockVirologyLocked
+  id: NanoAirlockVirologyLocked
   suffix: Virology, Locked
   components:
   - type: AccessReader
@@ -201,7 +201,7 @@
 
 - type: entity
   parent: AirlockChemistry
-  id: AirlockChemistryLocked
+  id: NanoAirlockChemistryLocked
   suffix: Chemistry, Locked
   components:
   - type: AccessReader
@@ -209,7 +209,7 @@
 
 - type: entity
   parent: AirlockScience
-  id: AirlockScienceLocked
+  id: NanoAirlockScienceLocked
   suffix: Science, Locked
   components:
   - type: AccessReader
@@ -217,7 +217,7 @@
 
 - type: entity
   parent: AirlockScience
-  id: AirlockMedicalScienceLocked
+  id: NanoAirlockMedicalScienceLocked
   suffix: Medical/Science, Locked
   components:
   - type: AccessReader
@@ -225,7 +225,7 @@
 
 - type: entity
   parent: AirlockCentralCommand
-  id: AirlockCentralCommandLocked
+  id: NanoAirlockCentralCommandLocked
   suffix: Central Command, Locked
   components:
   - type: AccessReader
@@ -235,7 +235,7 @@
 
 - type: entity
   parent: AirlockCommand
-  id: AirlockCommandLocked
+  id: NanoAirlockCommandLocked
   suffix: Command, Locked
   components:
   - type: AccessReader
@@ -245,7 +245,7 @@
 
 - type: entity
   parent: AirlockCommand
-  id: AirlockCaptainLocked
+  id: NanoAirlockCaptainLocked
   suffix: Captain, Locked
   components:
   - type: AccessReader
@@ -253,7 +253,7 @@
 
 - type: entity
   parent: AirlockCommand
-  id: AirlockChiefMedicalOfficerLocked
+  id: NanoAirlockChiefMedicalOfficerLocked
   suffix: ChiefMedicalOfficer, Locked
   components:
   - type: AccessReader
@@ -261,7 +261,7 @@
 
 - type: entity
   parent: AirlockCommand
-  id: AirlockChiefEngineerLocked
+  id: NanoAirlockChiefEngineerLocked
   suffix: ChiefEngineer, Locked
   components:
   - type: AccessReader
@@ -269,7 +269,7 @@
 
 - type: entity
   parent: AirlockCommand
-  id: AirlockHeadOfSecurityLocked
+  id: NanoAirlockHeadOfSecurityLocked
   suffix: HeadOfSecurity, Locked
   components:
   - type: AccessReader
@@ -277,7 +277,7 @@
 
 - type: entity
   parent: AirlockCommand
-  id: AirlockResearchDirectorLocked
+  id: NanoAirlockResearchDirectorLocked
   suffix: ResearchDirector, Locked
   components:
   - type: AccessReader
@@ -285,7 +285,7 @@
 
 - type: entity
   parent: AirlockCommand
-  id: AirlockHeadOfPersonnelLocked
+  id: NanoAirlockHeadOfPersonnelLocked
   suffix: HeadOfPersonnel, Locked
   components:
   - type: AccessReader
@@ -293,7 +293,7 @@
 
 - type: entity
   parent: AirlockCommand
-  id: AirlockQuartermasterLocked
+  id: NanoAirlockQuartermasterLocked
   suffix: Quartermaster, Locked
   components:
   - type: AccessReader
@@ -301,7 +301,7 @@
 
 - type: entity
   parent: AirlockSecurity
-  id: AirlockSecurityLocked
+  id: NanoAirlockSecurityLocked
   suffix: Security, Locked
   components:
   - type: AccessReader
@@ -311,7 +311,7 @@
 
 - type: entity
   parent: AirlockSecurity
-  id: AirlockDetectiveLocked
+  id: NanoAirlockDetectiveLocked
   suffix: Detective, Locked
   components:
   - type: AccessReader
@@ -321,7 +321,7 @@
 
 - type: entity
   parent: AirlockSecurity
-  id: AirlockBrigLocked
+  id: NanoAirlockBrigLocked
   suffix: Brig, Locked
   components:
   - type: AccessReader
@@ -331,7 +331,7 @@
 
 - type: entity
   parent: AirlockSecurity
-  id: AirlockSecurityLawyerLocked
+  id: NanoAirlockSecurityLawyerLocked
   suffix: Security/Lawyer, Locked
   components:
   - type: AccessReader
@@ -341,7 +341,7 @@
 
 - type: entity
   parent: AirlockSecurity
-  id: AirlockArmoryLocked
+  id: NanoAirlockArmoryLocked
   suffix: Armory, Locked
   components:
   - type: AccessReader
@@ -351,7 +351,7 @@
 
 - type: entity
   parent: AirlockSecurity
-  id: AirlockVaultLocked
+  id: NanoAirlockVaultLocked
   suffix: Vault, Locked
   components:
   - type: AccessReader
@@ -359,7 +359,7 @@
 
 - type: entity
   parent: AirlockCommand
-  id: AirlockEVALocked
+  id: NanoAirlockEVALocked
   suffix: EVA, Locked
   components:
   - type: AccessReader
@@ -368,7 +368,7 @@
 # Glass Airlocks
 - type: entity
   parent: AirlockGlass
-  id: AirlockServiceGlassLocked
+  id: NanoAirlockServiceGlassLocked
   suffix: Service, Locked
   components:
   - type: AccessReader
@@ -376,7 +376,7 @@
 
 - type: entity
   parent: AirlockGlass
-  id: AirlockLawyerGlassLocked
+  id: NanoAirlockLawyerGlassLocked
   suffix: Lawyer, Locked
   components:
   - type: AccessReader
@@ -384,7 +384,7 @@
 
 - type: entity
   parent: AirlockGlass
-  id: AirlockTheatreGlassLocked
+  id: NanoAirlockTheatreGlassLocked
   suffix: Theatre, Locked
   components:
   - type: AccessReader
@@ -392,7 +392,7 @@
 
 - type: entity
   parent: AirlockGlass
-  id: AirlockBarGlassLocked
+  id: NanoAirlockBarGlassLocked
   suffix: Bar, Locked
   components:
   - type: AccessReader
@@ -400,7 +400,7 @@
 
 - type: entity
   parent: AirlockExternalGlass
-  id: AirlockExternalGlassLocked
+  id: NanoAirlockExternalGlassLocked
   suffix: External, Glass, Locked
   components:
   - type: AccessReader
@@ -408,7 +408,7 @@
 
 - type: entity
   parent: AirlockExternalGlass
-  id: AirlockExternalGlassCargoLocked
+  id: NanoAirlockExternalGlassCargoLocked
   suffix: External, Glass, Cargo, Locked
   components:
   - type: AccessReader
@@ -416,7 +416,7 @@
 
 - type: entity
   parent: AirlockExternalGlass
-  id: AirlockExternalGlassSyndicateLocked
+  id: NanoAirlockExternalGlassSyndicateLocked
   suffix: External, Glass, Syndicate, Locked
   components:
   - type: AccessReader
@@ -424,7 +424,7 @@
 
 - type: entity
   parent: AirlockExternalGlass
-  id: AirlockExternalGlassNukeopLocked
+  id: NanoAirlockExternalGlassNukeopLocked
   suffix: External, Glass, Nukeop, Locked
   components:
   - type: AccessReader
@@ -432,7 +432,7 @@
 
 - type: entity
   parent: AirlockExternalGlass
-  id: AirlockExternalGlassEngineeringLocked
+  id: NanoAirlockExternalGlassEngineeringLocked
   suffix: External, Glass, Engineering, Locked
   components:
   - type: AccessReader
@@ -440,7 +440,7 @@
 
 - type: entity
   parent: AirlockExternalGlass
-  id: AirlockExternalGlassAtmosphericsLocked
+  id: NanoAirlockExternalGlassAtmosphericsLocked
   suffix: External, Glass, Atmospherics, Locked
   components:
   - type: AccessReader
@@ -448,7 +448,7 @@
 
 - type: entity
   parent: AirlockGlass
-  id: AirlockKitchenGlassLocked
+  id: NanoAirlockKitchenGlassLocked
   suffix: Kitchen, Locked
   components:
   - type: AccessReader
@@ -456,7 +456,7 @@
 
 - type: entity
   parent: AirlockGlass
-  id: AirlockJanitorGlassLocked
+  id: NanoAirlockJanitorGlassLocked
   suffix: Janitor, Locked
   components:
   - type: AccessReader
@@ -464,7 +464,7 @@
 
 - type: entity
   parent: AirlockGlass
-  id: AirlockHydroGlassLocked
+  id: NanoAirlockHydroGlassLocked
   suffix: Hydroponics, Locked
   components:
   - type: AccessReader
@@ -472,7 +472,7 @@
 
 - type: entity
   parent: AirlockGlass
-  id: AirlockChapelGlassLocked
+  id: NanoAirlockChapelGlassLocked
   suffix: Chapel, Locked
   components:
   - type: AccessReader
@@ -480,7 +480,7 @@
 
 - type: entity
   parent: AirlockEngineeringGlass
-  id: AirlockEngineeringGlassLocked
+  id: NanoAirlockEngineeringGlassLocked
   suffix: Engineering, Locked
   components:
   - type: AccessReader
@@ -488,7 +488,7 @@
 
 - type: entity
   parent: AirlockAtmosphericsGlass
-  id: AirlockAtmosphericsGlassLocked
+  id: NanoAirlockAtmosphericsGlassLocked
   suffix: Atmospherics, Locked
   components:
   - type: AccessReader
@@ -496,7 +496,7 @@
 
 - type: entity
   parent: AirlockCargoGlass
-  id: AirlockCargoGlassLocked
+  id: NanoAirlockCargoGlassLocked
   suffix: Cargo, Locked
   components:
   - type: AccessReader
@@ -504,7 +504,7 @@
 
 - type: entity
   parent: AirlockCargoGlass
-  id: AirlockSalvageGlassLocked
+  id: NanoAirlockSalvageGlassLocked
   suffix: Salvage, Locked
   components:
   - type: AccessReader
@@ -512,7 +512,7 @@
 
 - type: entity
   parent: AirlockMiningGlass
-  id: AirlockMiningGlassLocked
+  id: NanoAirlockMiningGlassLocked
   suffix: Mining(Salvage), Locked
   components:
   - type: AccessReader
@@ -520,7 +520,7 @@
 
 - type: entity
   parent: AirlockChemistryGlass
-  id: AirlockChemistryGlassLocked
+  id: NanoAirlockChemistryGlassLocked
   suffix: Chemistry, Locked
   components:
   - type: AccessReader
@@ -528,7 +528,7 @@
 
 - type: entity
   parent: AirlockMedicalGlass
-  id: AirlockMedicalGlassLocked
+  id: NanoAirlockMedicalGlassLocked
   suffix: Medical, Locked
   components:
   - type: AccessReader
@@ -536,7 +536,7 @@
 
 - type: entity
   parent: AirlockVirologyGlass
-  id: AirlockVirologyGlassLocked
+  id: NanoAirlockVirologyGlassLocked
   suffix: Virology, Locked
   components:
   - type: AccessReader
@@ -544,7 +544,7 @@
 
 - type: entity
   parent: AirlockScienceGlass
-  id: AirlockScienceGlassLocked
+  id: NanoAirlockScienceGlassLocked
   suffix: Science, Locked
   components:
   - type: AccessReader
@@ -552,7 +552,7 @@
 
 - type: entity
   parent: AirlockScienceGlass
-  id: AirlockMedicalScienceGlassLocked
+  id: NanoAirlockMedicalScienceGlassLocked
   suffix: Medical/Science, Locked
   components:
   - type: AccessReader
@@ -560,7 +560,7 @@
 
 - type: entity
   parent: AirlockCentralCommandGlass
-  id: AirlockCentralCommandGlassLocked
+  id: NanoAirlockCentralCommandGlassLocked
   suffix: Central Command, Locked
   components:
   - type: AccessReader
@@ -570,7 +570,7 @@
 
 - type: entity
   parent: AirlockCommandGlass
-  id: AirlockCommandGlassLocked
+  id: NanoAirlockCommandGlassLocked
   suffix: Command, Locked
   components:
   - type: AccessReader
@@ -578,7 +578,7 @@
 
 - type: entity
   parent: AirlockCommandGlass
-  id: AirlockCaptainGlassLocked
+  id: NanoAirlockCaptainGlassLocked
   suffix: Captain, Locked
   components:
   - type: AccessReader
@@ -586,7 +586,7 @@
 
 - type: entity
   parent: AirlockCommandGlass
-  id: AirlockChiefMedicalOfficerGlassLocked
+  id: NanoAirlockChiefMedicalOfficerGlassLocked
   suffix: ChiefMedicalOfficer, Locked
   components:
   - type: AccessReader
@@ -594,7 +594,7 @@
 
 - type: entity
   parent: AirlockCommandGlass
-  id: AirlockChiefEngineerGlassLocked
+  id: NanoAirlockChiefEngineerGlassLocked
   suffix: ChiefEngineer, Locked
   components:
   - type: AccessReader
@@ -602,7 +602,7 @@
 
 - type: entity
   parent: AirlockCommandGlass
-  id: AirlockHeadOfSecurityGlassLocked
+  id: NanoAirlockHeadOfSecurityGlassLocked
   suffix: HeadOfSecurity, Locked
   components:
   - type: AccessReader
@@ -610,7 +610,7 @@
 
 - type: entity
   parent: AirlockCommandGlass
-  id: AirlockResearchDirectorGlassLocked
+  id: NanoAirlockResearchDirectorGlassLocked
   suffix: ResearchDirector, Locked
   components:
   - type: AccessReader
@@ -618,7 +618,7 @@
 
 - type: entity
   parent: AirlockCommandGlass
-  id: AirlockHeadOfPersonnelGlassLocked
+  id: NanoAirlockHeadOfPersonnelGlassLocked
   suffix: HeadOfPersonnel, Locked
   components:
   - type: AccessReader
@@ -626,7 +626,7 @@
 
 - type: entity
   parent: AirlockCommandGlass
-  id: AirlockQuartermasterGlassLocked
+  id: NanoAirlockQuartermasterGlassLocked
   suffix: Quartermaster, Locked
   components:
   - type: AccessReader
@@ -634,7 +634,7 @@
 
 - type: entity
   parent: AirlockSecurityGlass
-  id: AirlockSecurityGlassLocked
+  id: NanoAirlockSecurityGlassLocked
   suffix: Security, Locked
   components:
   - type: AccessReader
@@ -642,7 +642,7 @@
 
 - type: entity
   parent: AirlockSecurityGlass
-  id: AirlockDetectiveGlassLocked
+  id: NanoAirlockDetectiveGlassLocked
   suffix: Detective, Locked
   components:
   - type: AccessReader
@@ -650,7 +650,7 @@
 
 - type: entity
   parent: AirlockSecurityGlass
-  id: AirlockBrigGlassLocked
+  id: NanoAirlockBrigGlassLocked
   suffix: Brig, Locked
   components:
   - type: AccessReader
@@ -658,7 +658,7 @@
 
 - type: entity
   parent: AirlockSecurityGlass
-  id: AirlockSecurityLawyerGlassLocked
+  id: NanoAirlockSecurityLawyerGlassLocked
   suffix: Security/Lawyer, Locked
   components:
   - type: AccessReader
@@ -666,7 +666,7 @@
 
 - type: entity
   parent: AirlockSecurityGlass
-  id: AirlockArmoryGlassLocked
+  id: NanoAirlockArmoryGlassLocked
   suffix: Armory, Locked
   components:
   - type: AccessReader
@@ -674,7 +674,7 @@
 
 - type: entity
   parent: AirlockCommandGlassLocked
-  id: AirlockEVAGlassLocked
+  id: NanoAirlockEVAGlassLocked
   suffix: EVA, Locked
   components:
   - type: AccessReader
@@ -682,7 +682,7 @@
 
 - type: entity
   parent: AirlockSyndicateGlass
-  id: AirlockSyndicateGlassLocked
+  id: NanoAirlockSyndicateGlassLocked
   suffix: Syndicate, Locked
   components:
   - type: AccessReader
@@ -690,7 +690,7 @@
 
 - type: entity
   parent: AirlockSyndicateGlass
-  id: AirlockSyndicateNukeopGlassLocked
+  id: NanoAirlockSyndicateNukeopGlassLocked
   suffix: Nukeop, Locked
   components:
   - type: AccessReader
@@ -939,7 +939,7 @@
 
 - type: entity
   parent: AirlockSyndicate
-  id: AirlockSyndicateLocked
+  id: NanoAirlockSyndicateLocked
   suffix: Syndicate, Locked
   components:
   - type: AccessReader
@@ -947,7 +947,7 @@
 
 - type: entity
   parent: AirlockSyndicate
-  id: AirlockSyndicateNukeopLocked
+  id: NanoAirlockSyndicateNukeopLocked
   suffix: Nukeop, Locked
   components:
   - type: AccessReader
@@ -956,7 +956,7 @@
 # Shuttle airlocks
 - type: entity
   parent: AirlockShuttle
-  id: AirlockExternalShuttleLocked
+  id: NanoAirlockExternalShuttleLocked
   suffix: External, Docking, Locked
   components:
   - type: AccessReader
@@ -964,7 +964,7 @@
 
 - type: entity
   parent: AirlockShuttleSyndicate
-  id: AirlockExternalShuttleSyndicateLocked
+  id: NanoAirlockExternalShuttleSyndicateLocked
   suffix: External, Docking, Syndicate, Locked
   components:
   - type: AccessReader
@@ -972,7 +972,7 @@
 
 - type: entity
   parent: AirlockShuttleSyndicate
-  id: AirlockExternalShuttleNukeopLocked
+  id: NanoAirlockExternalShuttleNukeopLocked
   suffix: External, Docking, Nukeop, Locked
   components:
   - type: AccessReader
@@ -980,7 +980,7 @@
 
 - type: entity
   parent: AirlockGlassShuttle
-  id: AirlockExternalGlassShuttleLocked
+  id: NanoAirlockExternalGlassShuttleLocked
   suffix: External, Glass, Docking, Locked
   components:
   - type: AccessReader
@@ -1004,7 +1004,7 @@
 
 - type: entity
   parent: AirlockGlassShuttle
-  id: AirlockExternalGlassShuttleEmergencyLocked
+  id: NanoAirlockExternalGlassShuttleEmergencyLocked
   suffix: External, Emergency, Glass, Docking, Locked
   components:
     - type: PriorityDock
@@ -1014,7 +1014,7 @@
 
 - type: entity
   parent: AirlockGlassShuttle
-  id: AirlockExternalGlassShuttleArrivals
+  id: NanoAirlockExternalGlassShuttleArrivals
   suffix: External, Arrivals, Glass, Docking
   components:
     - type: PriorityDock
@@ -1022,7 +1022,7 @@
 
 - type: entity
   parent: AirlockGlassShuttle
-  id: AirlockExternalGlassShuttleEscape
+  id: NanoAirlockExternalGlassShuttleEscape
   suffix: External, Escape 3x4, Glass, Docking
   components:
     - type: GridFill

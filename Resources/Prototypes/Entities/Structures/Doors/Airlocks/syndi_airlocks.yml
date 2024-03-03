@@ -1,0 +1,21 @@
+- type: entity
+  parent: AirlockHeadOfSecurityLocked
+  id: SyndiAirlockHeadOfSecurityLocked
+  suffix: HeadOfSecurity, Syndicate, Locked
+  components:
+  - type: AccessReader
+    access: [["HeadOfSecurity"]]
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/syndicate.rsi
+
+- type: entity
+  parent: AirlockSecurityLocked
+  id: SyndiAirlockSecurityLocked
+  suffix: Security, Syndicate, Locked
+  components:
+  - type: AccessReader
+    access: [["Security"]]
+  - type: Wires
+    layoutId: AirlockSecurity
+  - type: Sprite
+    sprite: Structures/Doors/Airlocks/Glass/syndicate.rsi
